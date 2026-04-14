@@ -105,8 +105,9 @@ body.grid-15 .row,body.grid-20 .row{flex:none;height:var(--row-h)}
   cursor:pointer;
   white-space:normal;
   overflow:hidden;
-  word-break:break-word;
-  hyphens:auto;
+  word-break:normal;
+  overflow-wrap:break-word;
+  hyphens:none;
   user-select:none;
   transition:background 0.2s, outline 0.15s;
   position:relative;
@@ -118,27 +119,27 @@ body.grid-15 .row,body.grid-20 .row{flex:none;height:var(--row-h)}
 .tile.removed{visibility:hidden;pointer-events:none}
 .tile.bookmarked::after{content:'★';position:absolute;top:1px;right:3px;font-size:10px;color:#d4a017;pointer-events:none}
 
-/* Reveal colors for "give up" — 10 distinct category colors */
-.tile.reveal-0{background:#a8d8ea;border-color:#6bb7d0;color:#1a3a5c}
-.tile.reveal-1{background:#f9c9c9;border-color:#e08888;color:#5c1a1a}
-.tile.reveal-2{background:#c9f9c9;border-color:#7bc97b;color:#1a4a1a}
-.tile.reveal-3{background:#f9e6a8;border-color:#d4b84a;color:#5c4a0a}
-.tile.reveal-4{background:#d4c9f9;border-color:#9b8ad4;color:#2a1a5c}
-.tile.reveal-5{background:#f9c9e6;border-color:#d47ba8;color:#5c1a3a}
-.tile.reveal-6{background:#c9f0f9;border-color:#6bc4d4;color:#0a4a5c}
-.tile.reveal-7{background:#e6f9c9;border-color:#a8d46b;color:#3a5c0a}
-.tile.reveal-8{background:#f0d4c9;border-color:#c9956b;color:#5c2a0a}
-.tile.reveal-9{background:#d4e6f9;border-color:#6b9bc9;color:#0a2a5c}
-.tile.reveal-10{background:#f9d8a8;border-color:#d4a04a;color:#5c3a0a}
-.tile.reveal-11{background:#c9d4f9;border-color:#7b8ad4;color:#1a2a5c}
-.tile.reveal-12{background:#f0c9f9;border-color:#b87bd4;color:#4a1a5c}
-.tile.reveal-13{background:#c9f9d8;border-color:#6bd48a;color:#0a5c2a}
-.tile.reveal-14{background:#f9f0c9;border-color:#d4c86b;color:#5c4a0a}
-.tile.reveal-15{background:#e0c9c9;border-color:#b89090;color:#5c2020}
-.tile.reveal-16{background:#c9e0f9;border-color:#6ba0d4;color:#0a3a5c}
-.tile.reveal-17{background:#d8f9d8;border-color:#80d480;color:#1a5c1a}
-.tile.reveal-18{background:#f9d4e0;border-color:#d47b90;color:#5c1a2a}
-.tile.reveal-19{background:#e0e0c9;border-color:#b0b07b;color:#4a4a1a}
+/* Reveal colors — Palette B "Confetti" (bright saturated) */
+.tile.reveal-0{background:#A0D8E8;border-color:#50A8C8;color:#0A3040}
+.tile.reveal-1{background:#F0A0A0;border-color:#D06060;color:#501010}
+.tile.reveal-2{background:#90D890;border-color:#50B050;color:#103010}
+.tile.reveal-3{background:#F0D070;border-color:#C8A030;color:#504000}
+.tile.reveal-4{background:#C0A0E8;border-color:#8860C0;color:#201040}
+.tile.reveal-5{background:#F0A0C8;border-color:#C86090;color:#401020}
+.tile.reveal-6{background:#80D8D8;border-color:#40B0B0;color:#003838}
+.tile.reveal-7{background:#C0E880;border-color:#88B840;color:#283808}
+.tile.reveal-8{background:#E8C0A0;border-color:#C08850;color:#402008}
+.tile.reveal-9{background:#A0B8E8;border-color:#6080C0;color:#082040}
+.tile.reveal-10{background:#E8D080;border-color:#C0A030;color:#484000}
+.tile.reveal-11{background:#A0A0E8;border-color:#6060C0;color:#101040}
+.tile.reveal-12{background:#E8A0E8;border-color:#C060C0;color:#401040}
+.tile.reveal-13{background:#80E8B0;border-color:#40C078;color:#003820}
+.tile.reveal-14{background:#E8E0A0;border-color:#C0B860;color:#404000}
+.tile.reveal-15{background:#D0A0A0;border-color:#A06060;color:#381010}
+.tile.reveal-16{background:#A0D0E8;border-color:#6098C0;color:#083040}
+.tile.reveal-17{background:#A0E8A0;border-color:#60C060;color:#103010}
+.tile.reveal-18{background:#E8A0B8;border-color:#C06080;color:#401020}
+.tile.reveal-19{background:#C8C8A0;border-color:#989860;color:#303010}
 
 .merge-wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.05;max-width:100%}
 .merge-preview{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word;hyphens:auto;max-height:2.2em;font-size:inherit}
@@ -184,14 +185,46 @@ body.grid-15 .row,body.grid-20 .row{flex:none;height:var(--row-h)}
 .reveal-word .rw-star.active{color:#d4a017}
 .reveal-word .rw-text{max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
-/* === Mobile: scroll in both directions === */
-@media(max-width:900px){
-  .topbar{flex-wrap:nowrap;gap:8px;font-size:13px;padding:4px 8px}
-  .topbar .title{font-size:14px}
+/* === Mobile adaptation === */
+@media(max-width:600px){
+  /* --- Mode screen --- */
+  .mode-screen{padding:10px;align-items:flex-start;min-height:auto}
+  .sel-container{padding:18px 14px;border-radius:10px}
+  .sel-container h1{font-size:22px}
+  .sel-container .subtitle{font-size:12px;margin-bottom:14px}
+  .sel-section{margin-bottom:12px}
+  .sel-label{font-size:11px;margin-bottom:6px}
+  .sel-btn{padding:7px 4px;font-size:12px;border-radius:6px}
+  .sel-btn .sel-emoji{font-size:16px;margin-bottom:1px}
+  .sel-btn .sel-lbl{font-size:11px}
+  .sel-btn .sel-count{font-size:10px}
+  .sel-divider{margin:6px 0}
+  .sel-divider span{font-size:10px}
+  .diff-btn{padding:7px 4px}
+  .diff-btn .d-label{font-size:13px}
+  .diff-btn .d-desc{font-size:10px}
+  .size-group{gap:6px}
+  .size-btn{padding:10px 6px}
+  .size-btn .s-num{font-size:20px}
+  .size-btn .s-desc{font-size:10px}
+  .start-btn{margin-top:14px;padding:14px;font-size:16px}
+  .start-btn.btn-fixed{position:fixed;bottom:0;left:0;right:0;margin:0;border-radius:0;padding:16px;font-size:17px;z-index:50}
+  /* --- Game screen --- */
+  body.grid-10,body.grid-15,body.grid-20{overflow-x:hidden;overflow-y:auto}
+  .scroll-wrap{overflow:auto;-webkit-overflow-scrolling:touch;height:auto;width:100%}
+  .scroll-inner{min-width:0!important;width:100%}
+  .topbar{flex-wrap:wrap;gap:4px 8px;font-size:13px;padding:4px 8px}
+  .topbar .title{font-size:13px;flex-basis:auto}
   .topbar .meta{font-size:12px}
-  .stage{height:auto;padding:4px}
-  .row{height:58px;flex:none}
-  .tile{min-width:0;height:58px}
+  .topbar .meta-gamenum{display:none}
+  .topbar #btn-goto{display:none}
+  .topbar .spacer{flex-basis:100%;height:0;padding:0;margin:0;order:5}
+  .topbar .btn{font-size:12px;padding:4px 8px}
+  .stage{height:auto;padding:3px}
+  :root{--row-h:64px}
+  .row{flex:none;height:64px}
+  .tile{min-width:0;height:64px}
+  .statusbar{font-size:11px;padding:3px 8px;flex-wrap:wrap;gap:4px}
   .overlay-panel{width:96%;max-width:none;padding:12px 14px}
 }
 </style>
@@ -284,14 +317,19 @@ function generateGame(gameNum){
    ══════════════════════════════════════════════════ */
 function adaptiveFont(text){
   const len = text.length;
-  // Single-line sizing based on total length
-  const singleSize = len<=5?16:len<=9?16:len<=13?15:len<=18?14:len<=25?12:len<=33?10.5:len<=40?9.5:8.5;
+  const mobile = window.innerWidth <= 600;
+  // Desktop scale (tiles ~160px wide)
+  const deskSingle = len<=5?16:len<=9?16:len<=13?15:len<=18?14:len<=25?12:len<=33?10.5:len<=40?9.5:8.5;
+  // Mobile scale (tiles ~65px wide) — much tighter
+  const mobSingle = len<=3?15:len<=5?14:len<=7?13:len<=9?11:len<=12?9.5:len<=16?8:len<=22?7:6;
+  const singleSize = mobile ? mobSingle : deskSingle;
   // For multi-word text: tile allows 2 lines, so size by longest word
-  // Use more generous scale — 2 lines give us double the space
   const words = text.split(/[\s\-\/]+/);
   if(words.length >= 2){
     const maxWord = Math.max(...words.map(w=>w.length));
-    const multiSize = maxWord<=5?16:maxWord<=8?16:maxWord<=11?15:maxWord<=16?14:maxWord<=21?12:maxWord<=26?10.5:9.5;
+    const deskMulti = maxWord<=5?16:maxWord<=8?16:maxWord<=11?15:maxWord<=16?14:maxWord<=21?12:maxWord<=26?10.5:9.5;
+    const mobMulti = maxWord<=3?15:maxWord<=5?14:maxWord<=7?12:maxWord<=9?10:maxWord<=12?8.5:maxWord<=16?7.5:6.5;
+    const multiSize = mobile ? mobMulti : deskMulti;
     return Math.max(singleSize, multiSize) + 'px';
   }
   return singleSize + 'px';
@@ -444,12 +482,14 @@ function endGame(won){
     statusEl.innerHTML = '<span class="result">Все '+GRID+' групп собраны!</span> Score: '+score+' | Ошибки: '+errors+' | Время: '+formatTime(elapsed)+' | Игра #'+game.gameNum;
   } else {
     statusEl.innerHTML = '<span class="result">Сдались.</span> Score: '+score+' | Ошибки: '+errors+' | Время: '+formatTime(elapsed)+' | Игра #'+game.gameNum;
-    revealAll();
   }
+  /* Show all tiles in shuffled positions with category colors */
+  revealAll();
   document.getElementById('btn-new').style.display = '';
   document.getElementById('btn-giveup').style.display = 'none';
   saveResult(won, elapsed);
-  showRevealPanel();
+  /* After 2 seconds, auto-show vocabulary overlay */
+  setTimeout(() => { showRevealPanel(); }, 2000);
 }
 
 /* ══════════════════════════════════════════════════
@@ -549,13 +589,39 @@ function showRevealPanel(){
 }
 
 function revealAll(){
-  document.querySelectorAll('.tile').forEach(t => {
-    if(t.classList.contains('complete')) return;
-    const catId = t.dataset.cat;
-    const idx = parseInt(catId.replace('c',''), 10);
-    t.classList.add('reveal-' + idx);
-    const cat = game.categories.find(c => c.id === catId);
-    if(cat) t.title = cat.name;
+  /* Rebuild grid: show ALL original tiles in shuffled order, colored by category */
+  const stage = document.getElementById('stage');
+  stage.innerHTML = '';
+  const totalTiles = game.tiles.length;
+  const totalRows = Math.ceil(totalTiles / COLS);
+  let idx = 0;
+  for(let r = 0; r < totalRows; r++){
+    const row = document.createElement('div');
+    row.className = 'row';
+    row.style.display = '';
+    for(let c = 0; c < COLS && idx < totalTiles; c++){
+      const t = game.tiles[idx++];
+      const btn = document.createElement('button');
+      btn.className = 'tile';
+      btn.dataset.word = t.word;
+      btn.dataset.cat = t.catId;
+      btn.dataset.size = '1';
+      btn.textContent = t.word;
+      btn.style.fontSize = adaptiveFont(t.word);
+      btn.disabled = true;
+      const catIdx = parseInt(t.catId.replace('c',''), 10);
+      btn.classList.add('reveal-' + catIdx);
+      const cat = game.categories.find(cc => cc.id === t.catId);
+      if(cat) btn.title = cat.name;
+      row.appendChild(btn);
+    }
+    stage.appendChild(row);
+  }
+  /* Mark bookmarked words */
+  const vocab = getVocab();
+  const vocabWords = new Set(vocab.map(v => v.word));
+  stage.querySelectorAll('.tile').forEach(btn => {
+    if(vocabWords.has(btn.dataset.word)) btn.classList.add('bookmarked');
   });
 }
 
@@ -774,7 +840,8 @@ function setupTileBookmark(btn){
 /* ══════════════════════════════════════════════════
    BUILD GRID
    ══════════════════════════════════════════════════ */
-const COLS = 10; // always 10 tiles per row
+function getCols(){ return window.innerWidth <= 600 ? 5 : 10; }
+let COLS = getCols();
 function buildGrid(){
   const stage = document.getElementById('stage');
   stage.innerHTML = '';
@@ -810,8 +877,8 @@ function buildGrid(){
    START / NEW GAME
    ══════════════════════════════════════════════════ */
 function applyGridCSS(){
+  COLS = getCols();
   document.body.className = 'grid-' + GRID;
-  // Always 10 columns for tile width calculation
   document.documentElement.style.setProperty('--grid-size', COLS);
   document.documentElement.style.setProperty('--tile-gap-total', ((COLS - 1) * 4) + 'px');
 }
@@ -865,7 +932,7 @@ function promptGameNumber(){
 
 let chosenTheme = 'all';
 let chosenSize = 10;
-let chosenDifficulty = 'hard';
+let chosenDifficulty = 'easy';
 
 function pickTheme(btn){
   document.querySelectorAll('.sel-btn').forEach(b => b.classList.remove('active'));
@@ -951,6 +1018,19 @@ window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btn-history').addEventListener('click', showHistory);
   document.getElementById('btn-vocab').addEventListener('click', showVocab);
   document.getElementById('btn-back').addEventListener('click', backToMenu);
+
+  /* Start button: fixed at bottom only if scrolled out of view on mobile */
+  if(window.innerWidth <= 600){
+    const startBtn = document.querySelector('.start-btn');
+    if(startBtn && 'IntersectionObserver' in window){
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          startBtn.classList.toggle('btn-fixed', !e.isIntersecting);
+        });
+      }, {threshold:0.1});
+      observer.observe(startBtn);
+    }
+  }
 });
 </script>
 </head>
@@ -977,9 +1057,9 @@ window.addEventListener('DOMContentLoaded', () => {
   <div class="sel-section">
     <div class="sel-label">Сложность</div>
     <div class="diff-group">
-      <button class="diff-btn" data-diff="easy" onclick="pickDifficulty(this)"><span class="d-label">Easy</span><span class="d-desc">знакомые слова</span></button>
+      <button class="diff-btn active" data-diff="easy" onclick="pickDifficulty(this)"><span class="d-label">Easy</span><span class="d-desc">знакомые слова</span></button>
       <button class="diff-btn" data-diff="medium" onclick="pickDifficulty(this)"><span class="d-label">Medium</span><span class="d-desc">нужна эрудиция</span></button>
-      <button class="diff-btn active" data-diff="hard" onclick="pickDifficulty(this)"><span class="d-label">Hard</span><span class="d-desc">вынос мозга</span></button>
+      <button class="diff-btn" data-diff="hard" onclick="pickDifficulty(this)"><span class="d-label">Hard</span><span class="d-desc">вынос мозга</span></button>
     </div>
   </div>
   <div class="sel-section">
@@ -1000,7 +1080,7 @@ window.addEventListener('DOMContentLoaded', () => {
 <div class="topbar">
   <button id="btn-back" class="btn" title="Назад к выбору">◀</button>
   <div class="title" id="title-text">Make 10 groups of 10!</div>
-  <div class="meta">Игра <span id="game-num">#1</span></div>
+  <div class="meta meta-gamenum">Игра <span id="game-num">#1</span></div>
   <div class="meta">Группы: <span id="groups">0/10</span></div>
   <div class="meta">Score: <span id="score">0</span></div>
   <div class="spacer"></div>
