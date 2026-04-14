@@ -314,7 +314,7 @@ const I18N = {
   }
 };
 
-let LANG = localStorage.getItem('lang') || (navigator.language.startsWith('ru') ? 'ru' : 'en');
+let LANG = navigator.language.startsWith('ru') ? 'ru' : 'en';
 function t(key) { return (I18N[LANG] && I18N[LANG][key]) || (I18N['ru'] && I18N['ru'][key]) || key; }
 function getBank() { return LANG === 'ru' ? CATEGORIES_BANK : CATEGORIES_EN; }
 
@@ -1218,7 +1218,6 @@ function toggleLangDropdown(e){
 function setLang(lang, e){
   e.stopPropagation();
   LANG = lang;
-  localStorage.setItem('lang', lang);
   document.getElementById('langDropdown').style.display = 'none';
   updateLangUI();
 }
