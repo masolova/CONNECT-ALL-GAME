@@ -410,7 +410,7 @@ function getFilteredBank(){
   // Theme filter
   if(chosenTheme === 'all') return bank;
   // System A: geek/human, System B: history/tech/culture (supports both direct and granular b-tags)
-  const superB = {history:'history',tech:'tech',culture:'culture',hist:'history',geo:'history',phil:'history',sci:'tech',math:'tech',med:'tech',sport:'tech',biz:'tech',art:'culture',lit:'culture',music:'culture',lang:'culture',nature:'culture',myth:'culture',psych:'culture'};
+  const superB = {history:'history',tech:'tech',culture:'culture',hist:'history',geo:'history',phil:'history',sci:'tech',math:'tech',med:'tech',sport:'tech',biz:'tech',art:'culture',lit:'culture',music:'culture',lang:'culture',nature:'culture',myth:'culture',psych:'culture',movies:'culture',tv:'culture',pop:'culture',games:'culture',internet:'culture',stories:'culture',books:'culture',mythology:'culture',architecture:'culture',business:'tech',politics:'history',adventure:'tech',space:'tech',geography:'history',geek:'tech'};
   return bank.filter(cat => {
     if(!cat.tags) return true;
     if(chosenTheme === 'geek' || chosenTheme === 'human') return cat.tags.a === chosenTheme;
@@ -1106,7 +1106,7 @@ function updateThemeCounts(){
   } else if(chosenDifficulty === 'medium'){
     bank = bank.filter(cat => cat.tags && (cat.tags.difficulty === 'easy' || cat.tags.difficulty === 'medium'));
   }
-  const superB = {history:'history',tech:'tech',culture:'culture',hist:'history',geo:'history',phil:'history',sci:'tech',math:'tech',med:'tech',sport:'tech',biz:'tech',art:'culture',lit:'culture',music:'culture',lang:'culture',nature:'culture',myth:'culture',psych:'culture'};
+  const superB = {history:'history',tech:'tech',culture:'culture',hist:'history',geo:'history',phil:'history',sci:'tech',math:'tech',med:'tech',sport:'tech',biz:'tech',art:'culture',lit:'culture',music:'culture',lang:'culture',nature:'culture',myth:'culture',psych:'culture',movies:'culture',tv:'culture',pop:'culture',games:'culture',internet:'culture',stories:'culture',books:'culture',mythology:'culture',architecture:'culture',business:'tech',politics:'history',adventure:'tech',space:'tech',geography:'history',geek:'tech'};
   const counts = {all:0,geek:0,human:0,history:0,tech:0,culture:0};
   bank.forEach(cat => {
     counts.all++;

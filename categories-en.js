@@ -302,7 +302,7 @@ const CATEGORIES_EN = [
   {
     "name": "iconic movie quotes",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "movies",
       "difficulty": "easy"
     },
@@ -453,7 +453,7 @@ const CATEGORIES_EN = [
     "name": "legendary video games",
     "tags": {
       "a": "geek",
-      "b": "games",
+      "b": "tech",
       "difficulty": "easy"
     },
     "words": [
@@ -602,7 +602,7 @@ const CATEGORIES_EN = [
   {
     "name": "world street food",
     "tags": {
-      "a": "food",
+      "a": "human",
       "b": "culture",
       "difficulty": "easy"
     },
@@ -902,8 +902,8 @@ const CATEGORIES_EN = [
   {
     "name": "iconic sports stars",
     "tags": {
-      "a": "sports",
-      "b": "culture",
+      "a": "human",
+      "b": "sport",
       "difficulty": "easy"
     },
     "words": [
@@ -1052,7 +1052,7 @@ const CATEGORIES_EN = [
   {
     "name": "cult tv series",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "tv",
       "difficulty": "easy"
     },
@@ -1202,7 +1202,7 @@ const CATEGORIES_EN = [
   {
     "name": "blockbuster franchises",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "movies",
       "difficulty": "easy"
     },
@@ -1352,7 +1352,7 @@ const CATEGORIES_EN = [
   {
     "name": "hit songs everyone knows",
     "tags": {
-      "a": "music",
+      "a": "human",
       "b": "culture",
       "difficulty": "easy"
     },
@@ -1502,7 +1502,7 @@ const CATEGORIES_EN = [
   {
     "name": "world leaders everyone knows",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "politics",
       "difficulty": "medium"
     },
@@ -1802,7 +1802,7 @@ const CATEGORIES_EN = [
   {
     "name": "disney & pixar characters",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "movies",
       "difficulty": "easy"
     },
@@ -2102,7 +2102,7 @@ const CATEGORIES_EN = [
   {
     "name": "world currencies",
     "tags": {
-      "a": "finance",
+      "a": "human",
       "b": "geography",
       "difficulty": "medium"
     },
@@ -2252,7 +2252,7 @@ const CATEGORIES_EN = [
   {
     "name": "musical instruments",
     "tags": {
-      "a": "music",
+      "a": "human",
       "b": "culture",
       "difficulty": "easy"
     },
@@ -2402,8 +2402,8 @@ const CATEGORIES_EN = [
   {
     "name": "social media platforms",
     "tags": {
-      "a": "tech",
-      "b": "culture",
+      "a": "human",
+      "b": "tech",
       "difficulty": "easy"
     },
     "words": [
@@ -2553,7 +2553,7 @@ const CATEGORIES_EN = [
     "name": "car brands everyone knows",
     "tags": {
       "a": "culture",
-      "b": "business",
+      "b": "biz",
       "difficulty": "easy"
     },
     "words": [
@@ -2702,7 +2702,7 @@ const CATEGORIES_EN = [
   {
     "name": "famous detectives (fiction)",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "books",
       "difficulty": "medium"
     },
@@ -2852,8 +2852,8 @@ const CATEGORIES_EN = [
   {
     "name": "world capitals everyone knows",
     "tags": {
-      "a": "geography",
-      "b": "culture",
+      "a": "human",
+      "b": "geo",
       "difficulty": "easy"
     },
     "words": [
@@ -3002,7 +3002,7 @@ const CATEGORIES_EN = [
   {
     "name": "fairy tales & children's stories",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "stories",
       "difficulty": "easy"
     },
@@ -3302,8 +3302,8 @@ const CATEGORIES_EN = [
   {
     "name": "emojis & internet slang",
     "tags": {
-      "a": "culture",
-      "b": "internet",
+      "a": "human",
+      "b": "tech",
       "difficulty": "easy"
     },
     "words": [
@@ -3452,8 +3452,8 @@ const CATEGORIES_EN = [
   {
     "name": "conspiracy theories",
     "tags": {
-      "a": "culture",
-      "b": "internet",
+      "a": "human",
+      "b": "hist",
       "difficulty": "easy"
     },
     "words": [
@@ -4052,7 +4052,7 @@ const CATEGORIES_EN = [
   {
     "name": "mythological creatures",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "mythology",
       "difficulty": "medium"
     },
@@ -4202,7 +4202,7 @@ const CATEGORIES_EN = [
   {
     "name": "architectural wonders",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "architecture",
       "difficulty": "medium"
     },
@@ -4352,7 +4352,7 @@ const CATEGORIES_EN = [
   {
     "name": "dystopian novels",
     "tags": {
-      "a": "books",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -9452,7 +9452,7 @@ const CATEGORIES_EN = [
   {
     "name": "typefaces & fonts",
     "tags": {
-      "a": "design",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -11852,7 +11852,7 @@ const CATEGORIES_EN = [
   {
     "name": "viral dances",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "pop",
       "difficulty": "easy"
     },
@@ -12002,7 +12002,7 @@ const CATEGORIES_EN = [
   {
     "name": "candy & chocolate bars",
     "tags": {
-      "a": "food",
+      "a": "human",
       "b": "pop",
       "difficulty": "easy"
     },
@@ -12152,7 +12152,7 @@ const CATEGORIES_EN = [
   {
     "name": "theme parks & rides",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "pop",
       "difficulty": "easy"
     },
@@ -12302,8 +12302,8 @@ const CATEGORIES_EN = [
   {
     "name": "superstar athletes right now",
     "tags": {
-      "a": "sports",
-      "b": "pop",
+      "a": "human",
+      "b": "sport",
       "difficulty": "easy"
     },
     "words": [
@@ -12452,7 +12452,7 @@ const CATEGORIES_EN = [
   {
     "name": "famous movie villains",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "pop",
       "difficulty": "easy"
     },
@@ -12602,8 +12602,8 @@ const CATEGORIES_EN = [
   {
     "name": "olympic sports everyone watches",
     "tags": {
-      "a": "sports",
-      "b": "culture",
+      "a": "human",
+      "b": "sport",
       "difficulty": "easy"
     },
     "words": [
@@ -12752,7 +12752,7 @@ const CATEGORIES_EN = [
   {
     "name": "legendary tv shows",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "pop",
       "difficulty": "easy"
     },
@@ -12902,7 +12902,7 @@ const CATEGORIES_EN = [
   {
     "name": "breakfast foods worldwide",
     "tags": {
-      "a": "food",
+      "a": "human",
       "b": "culture",
       "difficulty": "easy"
     },
@@ -13202,7 +13202,7 @@ const CATEGORIES_EN = [
   {
     "name": "cocktails & drinks everyone knows",
     "tags": {
-      "a": "food",
+      "a": "human",
       "b": "culture",
       "difficulty": "easy"
     },
