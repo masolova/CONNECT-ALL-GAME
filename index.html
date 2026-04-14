@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFJklEQVR4nK1XW2xUVRRd+zzuvTPtMNPHlALaAEo0RQLRfplggkGIClGjrRolmijhw4+GoIa/BmOMMShR478/GtIaPyAqEOKXD0IghSAJhnd9QVtxpo+Zub33nO3HnekD2t4LZSfn456c3L32OnuvvQ+hZswEACBiAHhm3+Vc2Y4LLNB0KsOBJjqyve1Gba+nh8WePWQBgCadVx0/9dmF10nIl9kEa8CswAwG0Z0CIDBDCCbpXCTGocr48KdHd3cUayCoFvmWj082sdvwlfYym6wJYAN/QZFPNwZDSAfS8WD80nm/MvrqkV0PHe/pYUGdnb2yvf0sH2945bC3qHljpXA9AJEgYMH0zwBBYFgYnc5oE1SGhMGag90rB0VfX5c50bBtm1uf21gZGZogITQRSRDR3VwEEiRIB6WRQHuZvIH9AEQswEwW9jUbBgxmeTtREQFi2kqSKUSkwvIoM9vntuw916ye/vBMzrpOuw18Skq7FATLjCBkhJZhOcpmKQhaEpQkMEf7syGwJmChnWxoymtV4AiSgEriWBBgGCiWQ7hKoGWRRnO9gqcFrGUUSgbXRwIUygZaEjxFmA0DABBIMIRSVVRznZtyLgjlCQNPCzz/SCMef3ARVuZdpJ0p0gLDGBwNcGqghO/PFHFxsFJlYw4Qgjlx5CXfYGXew7tPtmJVizfrOS0Jy3IOluUctDW66N5/FVrOzQKQgHpBgB8w2hodfNR5LxrSEsYyBBGIgGLZ4K//JmAskEtLLMlpqGqOJFGvWAAMAAS8vXkJGtISoWVIihx8+dMwfvitiJGSgQXgaUJrVuOZdQ3IZxSI5o8+FoAgwphvsH5VBquXpWAtJiP/4sdBfH3sXzTUKTi6pujAlWEfnxy5hpaMipIwBsG8AIgAy4xH768HAzDM0IJwfrCCg6cKyGcUuOq4ZikdJWWxbCBF/CXMW/fWMjwlsLzZnXGfJy6PYyK0EcU3RWg5WiqB83gADLhaoN6NjtWUbmg0jJW92LpOAqBmd9yLFwogKkGLUd8CmLrrfEYhLruSgp4fgCBUQosrw/4MSjuW18FRAsy3jiq1xhTO2ghuEwBzVHa/XBiLmg0RLAOrFnvYui6HodEQxkbpUANSDizGfItsSiZiISYJGXWuwLFLYzj7dxlCRHvMwFsbWrD9sTzqXIGJgFEJIjaWN7nY+UQrdm5qRSWMH+ZilZCqTOw9dA37XmpDbpoUv7E+jxc6GielOJuWWFqV4tN/lKIrwvxqGFsFliOJHbjh452+AVwY9CEFTUaWTUm0L01hzT0ptDU6k/UvEshwIgZqINKuxOVhHzv3X8Wm1VlsmKMdD40G6K+2YyemEyYGAESqmNIChoFvTt7AwdOFmQMJVweS4k0DSVwvML4g6SUr29rolU0pWGYMjQT4pzBxy0iWTcm5R7JpJlgIUWgqjYBwhaRmRvRaiTNjo0rQipB2IqmucwVcTdHYZudxzmASEjYMxo3gc+Lkjo6AQAekkyLAJgIw+S+eaj6Wo+/4xGMjvTpixrHDhf0D1NPD4ufUpYyb4n7pplYEpZGABKlkQ/ZtGYPZkFRSSEUU8sMHulf0CwA4uvu+opkov2hNcM3NNGkSOpqr7+IiEqRSGUVKc1Ae23Gge0V/Z2+vJGDqtbr5/RNLVK7pPTBvBXgx0d17nTFzkYT8lSuVnu92PXC8s5dlXxeZSZqnP5mf/fzPJp8ra5mtggkX5JiEYqkVOa73+7dvLr0KAJ29vbKvq8sAwP8dxZOx44VOIAAAAABJRU5ErkJggg==" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Connections</title>
 <style>
 :root{--bg:#e9e9e9;--panel:#c7e3ea;--tile:#f4f4f4;--stroke:#7e7e7e;--text:#111;--blue:#0d6efd;--red:#d61b1b;--grid-size:10}
@@ -25,7 +25,7 @@ body.grid-15 .stage,body.grid-20 .stage{height:auto}
 
 /* ═══ MODE SELECTOR SCREEN ═══ */
 .mode-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px}
-.sel-container{background:#fff;border-radius:12px;padding:36px 44px;max-width:620px;width:100%;box-shadow:0 4px 24px rgba(0,0,0,0.1)}
+.sel-container{background:#fff;border-radius:12px;padding:36px 44px;max-width:620px;width:100%;box-shadow:0 4px 24px rgba(0,0,0,0.1);position:relative}
 .sel-container h1{text-align:center;font-size:28px;font-weight:800;margin-bottom:4px}
 .sel-container .subtitle{text-align:center;color:#888;font-size:14px;margin-bottom:24px}
 .sel-section{margin-bottom:20px}
@@ -220,7 +220,7 @@ body.grid-15 .row,body.grid-20 .row{flex:none;height:var(--row-h)}
   .topbar #btn-goto{display:none}
   .topbar .spacer{flex-basis:100%;height:0;padding:0;margin:0;order:5}
   .topbar .btn{font-size:12px;padding:4px 8px}
-  .stage{height:auto;padding:3px}
+  .stage{height:auto;padding:3px;padding-bottom:calc(80px + env(safe-area-inset-bottom, 0px))}
   :root{--row-h:64px}
   .row{flex:none;height:64px}
   .tile{min-width:0;height:64px}
@@ -231,8 +231,129 @@ body.grid-15 .row,body.grid-20 .row{flex:none;height:var(--row-h)}
 
 <!-- Categories bank will be loaded from external file -->
 <script src="categories-bank.js"></script>
+<script src="categories-en.js"></script>
 
 <script>
+/* ══════════════════════════════════════════════════
+   INTERNATIONALISATION (i18n)
+   ══════════════════════════════════════════════════ */
+const I18N = {
+  ru: {
+    subtitle: 'Собери группы слов по категориям',
+    theme: 'Тематика', difficulty: 'Сложность', size: 'Размер',
+    allTopics: 'Все темы', geek: 'Гики', human: 'Гуманитарии',
+    divider: 'или по трём направлениям',
+    history: 'История и политика', tech: 'Технологии и спорт', culture: 'Культура',
+    easyDesc: 'знакомые слова', medDesc: 'нужна эрудиция', hardDesc: 'вынос мозга',
+    s10: '100 слов · 10 групп', s15: '225 слов · 15 групп', s20: '400 слов · 20 групп',
+    startGame: 'Начать игру',
+    backTitle: 'Назад к выбору',
+    gameLabel: 'Игра', groups: 'Группы',
+    vocab: '★ Словарь', historyBtn: '📊', gotoBtn: 'Игра #…',
+    giveUp: 'Сдаюсь', newGame: 'Новая игра',
+    statusDefault: 'Неправильная пара: −1 балл + слова → словарь ★',
+    allGroupsDone: 'Все {n} групп собраны!',
+    gaveUp: 'Сдались.',
+    score: 'Очки',
+    errors: 'Ошибки', time: 'Время',
+    titleText: 'Собери {n} групп по {g}!',
+    allGroups: 'Все группы — Игра #',
+    starHint: 'Нажмите ★ чтобы добавить слово в словарь',
+    historyTitle: 'История игр',
+    noGames: 'Пока нет сыгранных игр.',
+    date: 'Дата', gameNum: 'Игра #', groupsCol: 'Группы', scoreCol: 'Score', errorsCol: 'Ошибки', timeCol: 'Время', resultCol: 'Итог',
+    win: 'Победа', lost: 'Сдался',
+    vocabTitle: 'Словарь ★',
+    vocabWords: 'слов',
+    vocabEmpty: 'Пока пусто. Завершите игру — после этого можно отметить ★ слова.',
+    vocabSearch: 'Поиск по слову…',
+    allCategories: 'Все категории',
+    sortDate: 'По дате', sortAlpha: 'По алфавиту', sortCat: 'По категории',
+    wordCol: 'Слово', defCol: 'Определение', catCol: 'Категория',
+    historyBtnTitle: 'История игр',
+    gotoBtnTitle: 'Играть по номеру',
+    vocabBtnTitle: 'Словарь',
+    inputPlaceholder: '№'
+  },
+  en: {
+    subtitle: 'Group words into categories',
+    theme: 'Theme', difficulty: 'Difficulty', size: 'Grid size',
+    allTopics: 'All topics', geek: 'Science & Tech', human: 'Humanities',
+    divider: 'or by three tracks',
+    history: 'History & Politics', tech: 'Tech & Sports', culture: 'Culture',
+    easyDesc: 'familiar words', medDesc: 'need erudition', hardDesc: 'mind-bending',
+    s10: '100 words · 10 groups', s15: '225 words · 15 groups', s20: '400 words · 20 groups',
+    startGame: 'Start game',
+    backTitle: 'Back to menu',
+    gameLabel: 'Game', groups: 'Groups',
+    vocab: '★ Glossary', historyBtn: '📊', gotoBtn: 'Game #…',
+    giveUp: 'Give up', newGame: 'New game',
+    statusDefault: 'Wrong pair: −1 point + words go to glossary ★',
+    allGroupsDone: 'All {n} groups found!',
+    gaveUp: 'Gave up.',
+    score: 'Score',
+    errors: 'Errors', time: 'Time',
+    titleText: 'Make {n} groups of {g}!',
+    allGroups: 'All groups — Game #',
+    starHint: 'Click ★ to add a word to your glossary',
+    historyTitle: 'Game history',
+    noGames: 'No games played yet.',
+    date: 'Date', gameNum: 'Game #', groupsCol: 'Groups', scoreCol: 'Score', errorsCol: 'Errors', timeCol: 'Time', resultCol: 'Result',
+    win: 'Win', lost: 'Gave up',
+    vocabTitle: 'Glossary ★',
+    vocabWords: 'words',
+    vocabEmpty: 'Empty. Finish a game — then you can bookmark ★ words.',
+    vocabSearch: 'Search…',
+    allCategories: 'All categories',
+    sortDate: 'By date', sortAlpha: 'Alphabetical', sortCat: 'By category',
+    wordCol: 'Word', defCol: 'Definition', catCol: 'Category',
+    historyBtnTitle: 'Game history',
+    gotoBtnTitle: 'Play by number',
+    vocabBtnTitle: 'Glossary',
+    inputPlaceholder: '#'
+  }
+};
+
+let LANG = localStorage.getItem('lang') || (navigator.language.startsWith('ru') ? 'ru' : 'en');
+function t(key) { return (I18N[LANG] && I18N[LANG][key]) || (I18N['ru'] && I18N['ru'][key]) || key; }
+function getBank() { return LANG === 'ru' ? CATEGORIES_BANK : CATEGORIES_EN; }
+
+/* ══════════════════════════════════════════════════
+   ANALYTICS → Google Sheets (via Apps Script)
+   ══════════════════════════════════════════════════ */
+const ANALYTICS_URL = 'https://sheetdb.io/api/v1/2244ztnziprvn';
+const SESSION_ID = Math.random().toString(36).slice(2,10);
+const IS_OWNER = new URLSearchParams(window.location.search).has('me');
+let USER_COUNTRY = '';
+try { fetch('https://ipapi.co/json/').then(r=>r.json()).then(d=>{USER_COUNTRY=d.country_name||d.country||''}).catch(()=>{}); } catch(e){}
+function track(event, params){
+  if(!ANALYTICS_URL) return;
+  const row = {
+    timestamp: new Date().toISOString(),
+    event: event,
+    session_id: SESSION_ID,
+    owner: IS_OWNER ? 'me' : '',
+    country: USER_COUNTRY,
+    theme: params.theme || '',
+    difficulty: params.difficulty || '',
+    grid: params.grid !== undefined ? String(params.grid) : '',
+    gameNum: params.gameNum !== undefined ? String(params.gameNum) : '',
+    won: params.won !== undefined ? String(params.won) : '',
+    score: params.score !== undefined ? String(params.score) : '',
+    errors: params.errors !== undefined ? String(params.errors) : '',
+    time: params.time !== undefined ? String(params.time) : '',
+    language: LANG,
+    device: /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent) ? 'mobile' : 'desktop'
+  };
+  try {
+    fetch(ANALYTICS_URL, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({data:[row]})
+    });
+  } catch(e){}
+}
+
 /* ══════════════════════════════════════════════════
    SEEDED RANDOM (mulberry32)
    ══════════════════════════════════════════════════ */
@@ -270,14 +391,23 @@ CATEGORIES_BANK.forEach(cat => {
    GENERATE GAME from bank + game number
    ══════════════════════════════════════════════════ */
 function getFilteredBank(){
-  let bank = CATEGORIES_BANK;
+  let bank = getBank();
   // Difficulty filter: easy = only easy, medium = easy+medium, hard = all
-  if(chosenDifficulty === 'easy'){
-    bank = bank.filter(cat => cat.tags && cat.tags.difficulty === 'easy');
-  } else if(chosenDifficulty === 'medium'){
-    bank = bank.filter(cat => cat.tags && (cat.tags.difficulty === 'easy' || cat.tags.difficulty === 'medium'));
+  // Fallback: if not enough categories for GRID, widen difficulty
+  const diffLevels = ['easy','medium','hard'];
+  let diffIdx = chosenDifficulty === 'easy' ? 0 : chosenDifficulty === 'medium' ? 1 : 2;
+  while(diffIdx < 2){
+    let filtered;
+    if(diffIdx === 0) filtered = bank.filter(cat => cat.tags && cat.tags.difficulty === 'easy');
+    else if(diffIdx === 1) filtered = bank.filter(cat => cat.tags && (cat.tags.difficulty === 'easy' || cat.tags.difficulty === 'medium'));
+    else filtered = bank;
+    if(filtered.length >= GRID){ bank = filtered; break; }
+    diffIdx++;
   }
-  // hard = no difficulty filter (all categories)
+  if(diffIdx === 2){ /* hard = all, no filter */ }
+  else if(diffIdx === 1) bank = bank.filter(cat => cat.tags && (cat.tags.difficulty === 'easy' || cat.tags.difficulty === 'medium'));
+  else if(diffIdx === 0) bank = bank.filter(cat => cat.tags && cat.tags.difficulty === 'easy');
+  // Theme filter
   if(chosenTheme === 'all') return bank;
   // System A: geek/human, System B: history/tech/culture (supports both direct and granular b-tags)
   const superB = {history:'history',tech:'tech',culture:'culture',hist:'history',geo:'history',phil:'history',sci:'tech',math:'tech',med:'tech',sport:'tech',biz:'tech',art:'culture',lit:'culture',music:'culture',lang:'culture',nature:'culture',myth:'culture',psych:'culture'};
@@ -479,15 +609,16 @@ function endGame(won){
   const elapsed = getElapsedSeconds();
   const statusEl = document.getElementById('status');
   if(won){
-    statusEl.innerHTML = '<span class="result">Все '+GRID+' групп собраны!</span> Score: '+score+' | Ошибки: '+errors+' | Время: '+formatTime(elapsed)+' | Игра #'+game.gameNum;
+    statusEl.innerHTML = '<span class="result">'+t('allGroupsDone').replace('{n}',GRID)+'</span> '+t('score')+': '+score+' | '+t('errors')+': '+errors+' | '+t('time')+': '+formatTime(elapsed)+' | '+t('gameNum')+game.gameNum;
   } else {
-    statusEl.innerHTML = '<span class="result">Сдались.</span> Score: '+score+' | Ошибки: '+errors+' | Время: '+formatTime(elapsed)+' | Игра #'+game.gameNum;
+    statusEl.innerHTML = '<span class="result">'+t('gaveUp')+'</span> '+t('score')+': '+score+' | '+t('errors')+': '+errors+' | '+t('time')+': '+formatTime(elapsed)+' | '+t('gameNum')+game.gameNum;
   }
   /* Show all tiles in shuffled positions with category colors */
   revealAll();
   document.getElementById('btn-new').style.display = '';
   document.getElementById('btn-giveup').style.display = 'none';
   saveResult(won, elapsed);
+  track('game_end',{won,score,errors,time:elapsed,grid:GRID,groups:completedGroups,gameNum:game.gameNum});
   /* After 2 seconds, auto-show vocabulary overlay */
   setTimeout(() => { showRevealPanel(); }, 2000);
 }
@@ -532,8 +663,8 @@ function showRevealPanel(){
   overlay.addEventListener('click', e => { if(e.target === overlay) overlay.remove(); });
 
   let html = '<button class="close-btn" onclick="this.closest(\'.overlay\').remove()">&times;</button>';
-  html += '<h2>Все группы — Игра #' + game.gameNum + '</h2>';
-  html += '<div style="font-size:12px;color:#888;margin-bottom:8px">Нажмите ★ чтобы добавить слово в словарь</div>';
+  html += '<h2>'+t('allGroups')+game.gameNum+'</h2>';
+  html += '<div style="font-size:12px;color:#888;margin-bottom:8px">'+t('starHint')+'</div>';
   html += '<div class="reveal-panel">';
 
   game.categories.forEach((cat, i) => {
@@ -657,14 +788,14 @@ function showHistory(){
   overlay.addEventListener('click', e => { if(e.target === overlay) overlay.remove(); });
 
   let html = '<button class="close-btn" onclick="this.closest(\'.overlay\').remove()">&times;</button>';
-  html += '<h2>История игр</h2>';
+  html += '<h2>'+t('historyTitle')+'</h2>';
   if(history.length === 0){
-    html += '<div class="empty">Пока нет сыгранных игр.</div>';
+    html += '<div class="empty">'+t('noGames')+'</div>';
   } else {
-    html += '<table><tr><th>Дата</th><th>Игра #</th><th>Группы</th><th>Score</th><th>Ошибки</th><th>Время</th><th>Итог</th></tr>';
+    html += '<table><tr><th>'+t('date')+'</th><th>'+t('gameNum')+'</th><th>'+t('groupsCol')+'</th><th>'+t('scoreCol')+'</th><th>'+t('errorsCol')+'</th><th>'+t('timeCol')+'</th><th>'+t('resultCol')+'</th></tr>';
     history.forEach(h => {
       const cls = h.won ? 'won' : 'lost';
-      const result = h.won ? 'Победа' : 'Сдался';
+      const result = h.won ? t('win') : t('lost');
       const time = h.time != null ? formatTime(h.time) : '—';
       const errs = h.errors != null ? h.errors : '—';
       html += '<tr><td>'+escapeHtml(h.date||'')+'</td><td>'+h.gameNum+'</td><td>'+h.groups+'/'+(h.grid||10)+'</td><td>'+h.score+'</td><td>'+errs+'</td><td>'+time+'</td><td class="'+cls+'">'+result+'</td></tr>';
@@ -738,22 +869,22 @@ function showVocab(){
   overlay.addEventListener('click', e => { if(e.target === overlay) overlay.remove(); });
 
   let html = '<button class="close-btn" onclick="this.closest(\'.overlay\').remove()">&times;</button>';
-  html += '<h2>Словарь ★ <span style="font-size:13px;font-weight:400;color:#888">('+vocab.length+' слов)</span></h2>';
+  html += '<h2>'+t('vocabTitle')+' <span style="font-size:13px;font-weight:400;color:#888">('+vocab.length+' '+t('vocabWords')+')</span></h2>';
 
   if(vocab.length === 0){
-    html += '<div class="empty">Пока пусто. Завершите игру — после этого можно отметить ★ слова.</div>';
+    html += '<div class="empty">'+t('vocabEmpty')+'</div>';
   } else {
     // Controls: search + category filter + sort
     const cats = [...new Set(vocab.map(v => v.category))].sort();
     html += '<div class="vocab-controls">';
-    html += '<input type="text" id="vocab-search" placeholder="Поиск по слову…">';
-    html += '<select id="vocab-cat-filter"><option value="">Все категории</option>';
+    html += '<input type="text" id="vocab-search" placeholder="'+t('vocabSearch')+'">';
+    html += '<select id="vocab-cat-filter"><option value="">'+t('allCategories')+'</option>';
     cats.forEach(c => { html += '<option value="'+escapeHtml(c)+'">'+escapeHtml(c)+'</option>'; });
     html += '</select>';
-    html += '<select id="vocab-sort"><option value="date">По дате</option><option value="alpha">По алфавиту</option><option value="cat">По категории</option></select>';
+    html += '<select id="vocab-sort"><option value="date">'+t('sortDate')+'</option><option value="alpha">'+t('sortAlpha')+'</option><option value="cat">'+t('sortCat')+'</option></select>';
     html += '</div>';
 
-    html += '<table class="vocab-table"><thead><tr><th>Слово</th><th>Определение</th><th>Категория</th><th></th></tr></thead><tbody id="vocab-tbody">';
+    html += '<table class="vocab-table"><thead><tr><th>'+t('wordCol')+'</th><th>'+t('defCol')+'</th><th>'+t('catCol')+'</th><th></th></tr></thead><tbody id="vocab-tbody">';
     vocab.forEach((v, i) => {
       html += '<tr data-word="'+escapeHtml(v.word)+'" data-cat="'+escapeHtml(v.category)+'" data-idx="'+i+'">';
       html += '<td class="vw">'+escapeHtml(v.word)+'</td>';
@@ -891,12 +1022,13 @@ function startGame(num){
   completedGroups = 0;
   gameOver = false;
   gameStartTime = Date.now();
+  track('game_start',{theme:chosenTheme,difficulty:chosenDifficulty,grid:GRID,gameNum:num});
   applyGridCSS();
   document.getElementById('mode-screen').style.display = 'none';
   document.getElementById('game-screen').classList.add('active');
-  document.getElementById('title-text').textContent = 'Make ' + GRID + ' groups of ' + GRID + '!';
+  document.getElementById('title-text').textContent = t('titleText').replace('{n}',GRID).replace('{g}',GRID);
   document.getElementById('game-num').textContent = '#' + num;
-  document.getElementById('status').textContent = 'Неправильная пара: −1 балл + слова → словарь ★';
+  document.getElementById('status').textContent = t('statusDefault');
   document.getElementById('btn-new').style.display = 'none';
   document.getElementById('btn-giveup').style.display = '';
   updateStats();
@@ -916,7 +1048,7 @@ function promptGameNumber(){
   inp.id = 'game-input';
   inp.type = 'number';
   inp.min = '1';
-  inp.placeholder = '№';
+  inp.placeholder = t('inputPlaceholder');
   inp.style.cssText = 'width:70px;padding:3px 6px;font-size:14px;border:1px solid #69b;border-radius:2px;margin-left:4px';
   btn.parentNode.insertBefore(inp, btn.nextSibling);
   inp.focus();
@@ -968,7 +1100,7 @@ function backToMenu(){
 
 function updateThemeCounts(){
   // Apply difficulty filter first
-  let bank = CATEGORIES_BANK;
+  let bank = getBank();
   if(chosenDifficulty === 'easy'){
     bank = bank.filter(cat => cat.tags && cat.tags.difficulty === 'easy');
   } else if(chosenDifficulty === 'medium'){
@@ -985,12 +1117,13 @@ function updateThemeCounts(){
     }
   });
   const declension = n => {
+    if(LANG === 'en') return n + (n === 1 ? ' topic' : ' topics');
     const m = n % 100;
-    if(m >= 11 && m <= 19) return n + ' \u0442\u0435\u043c';
+    if(m >= 11 && m <= 19) return n + ' тем';
     const d = n % 10;
-    if(d === 1) return n + ' \u0442\u0435\u043c\u0430';
-    if(d >= 2 && d <= 4) return n + ' \u0442\u0435\u043c\u044b';
-    return n + ' \u0442\u0435\u043c';
+    if(d === 1) return n + ' тема';
+    if(d >= 2 && d <= 4) return n + ' темы';
+    return n + ' тем';
   };
   ['all','geek','human','history','tech','culture'].forEach(k => {
     const el = document.getElementById('cnt-' + k);
@@ -998,8 +1131,105 @@ function updateThemeCounts(){
   });
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+function updateLangUI(){
+  // Update html lang attribute
+  document.documentElement.lang = LANG;
+  // Mode screen text
+  const subtitle = document.getElementById('sel-subtitle');
+  if(subtitle) subtitle.textContent = t('subtitle');
+  const lblTheme = document.getElementById('lbl-theme');
+  if(lblTheme) lblTheme.textContent = t('theme');
+  const lblDiff = document.getElementById('lbl-difficulty');
+  if(lblDiff) lblDiff.textContent = t('difficulty');
+  const lblSize = document.getElementById('lbl-size');
+  if(lblSize) lblSize.textContent = t('size');
+  const divider = document.getElementById('sel-divider');
+  if(divider) divider.textContent = t('divider');
+  // Theme button labels
+  const lblMap = {all:'allTopics',geek:'geek',human:'human',history:'history',tech:'tech',culture:'culture'};
+  Object.keys(lblMap).forEach(k => {
+    const el = document.getElementById('lbl-theme-' + k);
+    if(el) el.textContent = t(lblMap[k]);
+  });
+  const easyDesc = document.getElementById('d-desc-easy');
+  if(easyDesc) easyDesc.textContent = t('easyDesc');
+  const medDesc = document.getElementById('d-desc-medium');
+  if(medDesc) medDesc.textContent = t('medDesc');
+  const hardDesc = document.getElementById('d-desc-hard');
+  if(hardDesc) hardDesc.textContent = t('hardDesc');
+  // Size button descriptions
+  const s10 = document.getElementById('s-desc-10');
+  if(s10) s10.textContent = t('s10');
+  const s15 = document.getElementById('s-desc-15');
+  if(s15) s15.textContent = t('s15');
+  const s20 = document.getElementById('s-desc-20');
+  if(s20) s20.textContent = t('s20');
+  // Start button
+  const startBtn = document.querySelector('.start-btn');
+  if(startBtn) startBtn.textContent = t('startGame');
+  // Topbar buttons
+  const btnBack = document.getElementById('btn-back');
+  if(btnBack) btnBack.title = t('backTitle');
+  const btnVocab = document.getElementById('btn-vocab');
+  if(btnVocab){ btnVocab.textContent = t('vocab'); btnVocab.title = t('vocabBtnTitle'); }
+  const btnHistory = document.getElementById('btn-history');
+  if(btnHistory){ btnHistory.textContent = t('historyBtn'); btnHistory.title = t('historyBtnTitle'); }
+  const btnGoto = document.getElementById('btn-goto');
+  if(btnGoto){ btnGoto.textContent = t('gotoBtn'); btnGoto.title = t('gotoBtnTitle'); }
+  const btnGiveup = document.getElementById('btn-giveup');
+  if(btnGiveup) btnGiveup.textContent = t('giveUp');
+  const btnNew = document.getElementById('btn-new');
+  if(btnNew) btnNew.textContent = t('newGame');
+  // Topbar meta labels
+  const metaGroups = document.getElementById('meta-groups-label');
+  if(metaGroups) metaGroups.textContent = t('groups') + ': ';
+  const metaScore = document.getElementById('meta-score-label');
+  if(metaScore) metaScore.textContent = t('score') + ': ';
+  const metaGame = document.getElementById('meta-game-label');
+  if(metaGame) metaGame.textContent = t('gameLabel') + ' ';
+  // Status bar default (only if game is active and not over)
+  const statusEl = document.getElementById('status');
+  if(statusEl && !gameOver && game) statusEl.textContent = t('statusDefault');
+  else if(statusEl && !game) statusEl.textContent = t('statusDefault');
+  // Update theme counts with correct bank
   updateThemeCounts();
+  // Update title-text if game is running
+  if(game) document.getElementById('title-text').textContent = t('titleText').replace('{n}',GRID).replace('{g}',GRID);
+  // Lang switcher button
+  const currentLangLabel = document.getElementById('currentLangLabel');
+  if(currentLangLabel) currentLangLabel.textContent = LANG.toUpperCase();
+  const flagEl = document.getElementById('currentFlag');
+  if(flagEl){
+    if(LANG === 'ru'){
+      flagEl.setAttribute('viewBox','0 0 9 6');
+      flagEl.innerHTML = '<rect width="9" height="2" fill="#fff"/><rect y="2" width="9" height="2" fill="#0039a6"/><rect y="4" width="9" height="2" fill="#d52b1e"/>';
+    } else {
+      flagEl.setAttribute('viewBox','0 0 190 100');
+      flagEl.innerHTML = '<rect width="190" height="100" fill="#fff"/><path fill="#B31942" d="M0,0h190v7.69H0zm0,15.38h190v7.69H0zm0,15.39h190v7.69H0zm0,15.38h190v7.69H0zm0,15.39h190v7.69H0zm0,15.38h190v7.69H0zm0,15.39h190v7.69H0z"/><rect width="76" height="53.85" fill="#002868"/><g fill="#fff"><circle cx="10" cy="8" r="2"/><circle cx="22" cy="8" r="2"/><circle cx="34" cy="8" r="2"/><circle cx="46" cy="8" r="2"/><circle cx="58" cy="8" r="2"/><circle cx="70" cy="8" r="2"/><circle cx="16" cy="16" r="2"/><circle cx="28" cy="16" r="2"/><circle cx="40" cy="16" r="2"/><circle cx="52" cy="16" r="2"/><circle cx="64" cy="16" r="2"/><circle cx="10" cy="24" r="2"/><circle cx="22" cy="24" r="2"/><circle cx="34" cy="24" r="2"/><circle cx="46" cy="24" r="2"/><circle cx="58" cy="24" r="2"/><circle cx="70" cy="24" r="2"/><circle cx="16" cy="32" r="2"/><circle cx="28" cy="32" r="2"/><circle cx="40" cy="32" r="2"/><circle cx="52" cy="32" r="2"/><circle cx="64" cy="32" r="2"/><circle cx="10" cy="40" r="2"/><circle cx="22" cy="40" r="2"/><circle cx="34" cy="40" r="2"/><circle cx="46" cy="40" r="2"/><circle cx="58" cy="40" r="2"/><circle cx="70" cy="40" r="2"/><circle cx="16" cy="48" r="2"/><circle cx="28" cy="48" r="2"/><circle cx="40" cy="48" r="2"/><circle cx="52" cy="48" r="2"/><circle cx="64" cy="48" r="2"/></g>';
+    }
+  }
+}
+
+function toggleLangDropdown(e){
+  e.stopPropagation();
+  const dd = document.getElementById('langDropdown');
+  dd.style.display = dd.style.display === 'none' ? 'block' : 'none';
+}
+function setLang(lang, e){
+  e.stopPropagation();
+  LANG = lang;
+  localStorage.setItem('lang', lang);
+  document.getElementById('langDropdown').style.display = 'none';
+  updateLangUI();
+}
+document.addEventListener('click', e => {
+  const sw = document.getElementById('langSwitch');
+  if(sw && !e.target.closest('#langSwitch')) document.getElementById('langDropdown').style.display = 'none';
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  track('visit',{});
+  updateLangUI();
   const params = new URLSearchParams(window.location.search);
   const gn = parseInt(params.get('game'), 10);
   const gm = parseInt(params.get('grid'), 10);
@@ -1038,36 +1268,51 @@ window.addEventListener('DOMContentLoaded', () => {
 <!-- MODE SELECTOR -->
 <div class="mode-screen" id="mode-screen" style="display:none">
 <div class="sel-container">
+  <div class="lang-switch" id="langSwitch" onclick="toggleLangDropdown(event)" style="position:absolute;top:16px;right:16px;cursor:pointer;display:flex;align-items:center;gap:5px;padding:5px 10px;border-radius:6px;border:1px solid #ddd;background:#fafafa;font-size:13px;font-weight:600;color:#444;user-select:none">
+    <svg id="currentFlag" class="flag-icon" style="width:24px;height:16px;flex-shrink:0;display:block;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,0.1)" viewBox="0 0 9 6"><rect width="9" height="2" fill="#fff"/><rect y="2" width="9" height="2" fill="#0039a6"/><rect y="4" width="9" height="2" fill="#d52b1e"/></svg>
+    <span id="currentLangLabel">RU</span>
+    <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="#999" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <div id="langDropdown" style="display:none;position:absolute;top:100%;right:0;margin-top:4px;background:#fff;border:1px solid #ddd;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.12);z-index:200;min-width:150px;overflow:hidden">
+      <div class="lang-option" data-lang="ru" onclick="setLang('ru',event)" style="display:flex;align-items:center;gap:8px;padding:10px 16px;font-size:14px;font-weight:500;cursor:pointer">
+        <svg style="width:24px;height:16px;flex-shrink:0;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,0.1)" viewBox="0 0 9 6"><rect width="9" height="2" fill="#fff"/><rect y="2" width="9" height="2" fill="#0039a6"/><rect y="4" width="9" height="2" fill="#d52b1e"/></svg>
+        Русский
+      </div>
+      <div class="lang-option" data-lang="en" onclick="setLang('en',event)" style="display:flex;align-items:center;gap:8px;padding:10px 16px;font-size:14px;font-weight:500;cursor:pointer">
+        <svg style="width:24px;height:16px;flex-shrink:0;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,0.1)" viewBox="0 0 190 100"><rect width="190" height="100" fill="#fff"/><path fill="#B31942" d="M0,0h190v7.69H0zm0,15.38h190v7.69H0zm0,15.39h190v7.69H0zm0,15.38h190v7.69H0zm0,15.39h190v7.69H0zm0,15.38h190v7.69H0zm0,15.39h190v7.69H0z"/><rect width="76" height="53.85" fill="#002868"/><g fill="#fff"><circle cx="10" cy="8" r="2"/><circle cx="22" cy="8" r="2"/><circle cx="34" cy="8" r="2"/><circle cx="46" cy="8" r="2"/><circle cx="58" cy="8" r="2"/><circle cx="70" cy="8" r="2"/><circle cx="16" cy="16" r="2"/><circle cx="28" cy="16" r="2"/><circle cx="40" cy="16" r="2"/><circle cx="52" cy="16" r="2"/><circle cx="64" cy="16" r="2"/><circle cx="10" cy="24" r="2"/><circle cx="22" cy="24" r="2"/><circle cx="34" cy="24" r="2"/><circle cx="46" cy="24" r="2"/><circle cx="58" cy="24" r="2"/><circle cx="70" cy="24" r="2"/><circle cx="16" cy="32" r="2"/><circle cx="28" cy="32" r="2"/><circle cx="40" cy="32" r="2"/><circle cx="52" cy="32" r="2"/><circle cx="64" cy="32" r="2"/><circle cx="10" cy="40" r="2"/><circle cx="22" cy="40" r="2"/><circle cx="34" cy="40" r="2"/><circle cx="46" cy="40" r="2"/><circle cx="58" cy="40" r="2"/><circle cx="70" cy="40" r="2"/><circle cx="16" cy="48" r="2"/><circle cx="28" cy="48" r="2"/><circle cx="40" cy="48" r="2"/><circle cx="52" cy="48" r="2"/><circle cx="64" cy="48" r="2"/></g></svg>
+        English
+      </div>
+    </div>
+  </div>
   <h1>Connections</h1>
-  <p class="subtitle">Собери группы слов по категориям</p>
+  <p class="subtitle" id="sel-subtitle">Собери группы слов по категориям</p>
   <div class="sel-section">
-    <div class="sel-label">Тематика</div>
+    <div class="sel-label" id="lbl-theme">Тематика</div>
     <div class="sel-row">
-      <button class="sel-btn active" data-theme="all" onclick="pickTheme(this)"><span class="sel-emoji">🎲</span><span class="sel-lbl">Все темы</span><span class="sel-count" id="cnt-all"></span></button>
-      <button class="sel-btn" data-theme="geek" onclick="pickTheme(this)"><span class="sel-emoji">⚡</span><span class="sel-lbl">Гики</span><span class="sel-count" id="cnt-geek"></span></button>
-      <button class="sel-btn" data-theme="human" onclick="pickTheme(this)"><span class="sel-emoji">📖</span><span class="sel-lbl">Гуманитарии</span><span class="sel-count" id="cnt-human"></span></button>
+      <button class="sel-btn active" data-theme="all" onclick="pickTheme(this)"><span class="sel-emoji">🎲</span><span class="sel-lbl" id="lbl-theme-all">Все темы</span><span class="sel-count" id="cnt-all"></span></button>
+      <button class="sel-btn" data-theme="geek" onclick="pickTheme(this)"><span class="sel-emoji">⚡</span><span class="sel-lbl" id="lbl-theme-geek">Гики</span><span class="sel-count" id="cnt-geek"></span></button>
+      <button class="sel-btn" data-theme="human" onclick="pickTheme(this)"><span class="sel-emoji">📖</span><span class="sel-lbl" id="lbl-theme-human">Гуманитарии</span><span class="sel-count" id="cnt-human"></span></button>
     </div>
-    <div class="sel-divider"><span>или по трём направлениям</span></div>
+    <div class="sel-divider"><span id="sel-divider">или по трём направлениям</span></div>
     <div class="sel-row">
-      <button class="sel-btn" data-theme="history" onclick="pickTheme(this)"><span class="sel-emoji">🏛</span><span class="sel-lbl">История и политика</span><span class="sel-count" id="cnt-history"></span></button>
-      <button class="sel-btn" data-theme="tech" onclick="pickTheme(this)"><span class="sel-emoji">💻</span><span class="sel-lbl">Технологии и спорт</span><span class="sel-count" id="cnt-tech"></span></button>
-      <button class="sel-btn" data-theme="culture" onclick="pickTheme(this)"><span class="sel-emoji">🎭</span><span class="sel-lbl">Культура</span><span class="sel-count" id="cnt-culture"></span></button>
+      <button class="sel-btn" data-theme="history" onclick="pickTheme(this)"><span class="sel-emoji">🏛</span><span class="sel-lbl" id="lbl-theme-history">История и политика</span><span class="sel-count" id="cnt-history"></span></button>
+      <button class="sel-btn" data-theme="tech" onclick="pickTheme(this)"><span class="sel-emoji">💻</span><span class="sel-lbl" id="lbl-theme-tech">Технологии и спорт</span><span class="sel-count" id="cnt-tech"></span></button>
+      <button class="sel-btn" data-theme="culture" onclick="pickTheme(this)"><span class="sel-emoji">🎭</span><span class="sel-lbl" id="lbl-theme-culture">Культура</span><span class="sel-count" id="cnt-culture"></span></button>
     </div>
   </div>
   <div class="sel-section">
-    <div class="sel-label">Сложность</div>
+    <div class="sel-label" id="lbl-difficulty">Сложность</div>
     <div class="diff-group">
-      <button class="diff-btn active" data-diff="easy" onclick="pickDifficulty(this)"><span class="d-label">Easy</span><span class="d-desc">знакомые слова</span></button>
-      <button class="diff-btn" data-diff="medium" onclick="pickDifficulty(this)"><span class="d-label">Medium</span><span class="d-desc">нужна эрудиция</span></button>
-      <button class="diff-btn" data-diff="hard" onclick="pickDifficulty(this)"><span class="d-label">Hard</span><span class="d-desc">вынос мозга</span></button>
+      <button class="diff-btn active" data-diff="easy" onclick="pickDifficulty(this)"><span class="d-label">Easy</span><span class="d-desc" id="d-desc-easy">знакомые слова</span></button>
+      <button class="diff-btn" data-diff="medium" onclick="pickDifficulty(this)"><span class="d-label">Medium</span><span class="d-desc" id="d-desc-medium">нужна эрудиция</span></button>
+      <button class="diff-btn" data-diff="hard" onclick="pickDifficulty(this)"><span class="d-label">Hard</span><span class="d-desc" id="d-desc-hard">вынос мозга</span></button>
     </div>
   </div>
   <div class="sel-section">
-    <div class="sel-label">Размер</div>
+    <div class="sel-label" id="lbl-size">Размер</div>
     <div class="size-group">
-      <button class="size-btn active" data-size="10" onclick="pickSize(this)"><div class="s-num">10×10</div><div class="s-desc">100 слов · 10 групп</div></button>
-      <button class="size-btn" data-size="15" onclick="pickSize(this)"><div class="s-num">15×15</div><div class="s-desc">225 слов · 15 групп</div></button>
-      <button class="size-btn" data-size="20" onclick="pickSize(this)"><div class="s-num">20×20</div><div class="s-desc">400 слов · 20 групп</div></button>
+      <button class="size-btn active" data-size="10" onclick="pickSize(this)"><div class="s-num">10×10</div><div class="s-desc" id="s-desc-10">100 слов · 10 групп</div></button>
+      <button class="size-btn" data-size="15" onclick="pickSize(this)"><div class="s-num">15×15</div><div class="s-desc" id="s-desc-15">225 слов · 15 групп</div></button>
+      <button class="size-btn" data-size="20" onclick="pickSize(this)"><div class="s-num">20×20</div><div class="s-desc" id="s-desc-20">400 слов · 20 групп</div></button>
     </div>
   </div>
   <button class="start-btn" onclick="launchGame()">Начать игру</button>
@@ -1080,9 +1325,9 @@ window.addEventListener('DOMContentLoaded', () => {
 <div class="topbar">
   <button id="btn-back" class="btn" title="Назад к выбору">◀</button>
   <div class="title" id="title-text">Make 10 groups of 10!</div>
-  <div class="meta meta-gamenum">Игра <span id="game-num">#1</span></div>
-  <div class="meta">Группы: <span id="groups">0/10</span></div>
-  <div class="meta">Score: <span id="score">0</span></div>
+  <div class="meta meta-gamenum"><span id="meta-game-label">Игра </span><span id="game-num">#1</span></div>
+  <div class="meta"><span id="meta-groups-label">Группы: </span><span id="groups">0/10</span></div>
+  <div class="meta"><span id="meta-score-label">Score: </span><span id="score">0</span></div>
   <div class="spacer"></div>
   <button id="btn-vocab" class="btn btn-info" title="Словарь">★ Словарь</button>
   <button id="btn-history" class="btn btn-info" title="История игр">📊</button>
