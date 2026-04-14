@@ -752,7 +752,7 @@ const CATEGORIES_EN = [
   {
     "name": "billionaires & tech moguls",
     "tags": {
-      "a": "business",
+      "a": "geek",
       "b": "tech",
       "difficulty": "medium"
     },
@@ -1652,7 +1652,7 @@ const CATEGORIES_EN = [
   {
     "name": "ancient wonders & landmarks",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -1952,7 +1952,7 @@ const CATEGORIES_EN = [
   {
     "name": "extreme sports & stunts",
     "tags": {
-      "a": "sports",
+      "a": "human",
       "b": "adventure",
       "difficulty": "medium"
     },
@@ -2552,7 +2552,7 @@ const CATEGORIES_EN = [
   {
     "name": "car brands everyone knows",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "biz",
       "difficulty": "easy"
     },
@@ -3152,7 +3152,7 @@ const CATEGORIES_EN = [
   {
     "name": "epic rivalries in sports",
     "tags": {
-      "a": "sports",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -3602,7 +3602,7 @@ const CATEGORIES_EN = [
   {
     "name": "legendary stadium moments",
     "tags": {
-      "a": "sports",
+      "a": "human",
       "b": "culture",
       "difficulty": "hard"
     },
@@ -3752,7 +3752,7 @@ const CATEGORIES_EN = [
   {
     "name": "space missions & spacecraft",
     "tags": {
-      "a": "science",
+      "a": "geek",
       "b": "space",
       "difficulty": "medium"
     },
@@ -3902,7 +3902,7 @@ const CATEGORIES_EN = [
   {
     "name": "famous operas",
     "tags": {
-      "a": "music",
+      "a": "human",
       "b": "culture",
       "difficulty": "hard"
     },
@@ -9152,7 +9152,7 @@ const CATEGORIES_EN = [
   {
     "name": "deep-sea creatures",
     "tags": {
-      "a": "science",
+      "a": "geek",
       "b": "nature",
       "difficulty": "medium"
     },
@@ -9302,7 +9302,7 @@ const CATEGORIES_EN = [
   {
     "name": "forgotten empires",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "culture",
       "difficulty": "hard"
     },
@@ -9602,7 +9602,7 @@ const CATEGORIES_EN = [
   {
     "name": "particle physics",
     "tags": {
-      "a": "science",
+      "a": "geek",
       "b": "geek",
       "difficulty": "hard"
     },
@@ -9752,7 +9752,7 @@ const CATEGORIES_EN = [
   {
     "name": "sieges & battles",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -9902,7 +9902,7 @@ const CATEGORIES_EN = [
   {
     "name": "pandemics in history",
     "tags": {
-      "a": "science",
+      "a": "geek",
       "b": "history",
       "difficulty": "medium"
     },
@@ -10052,7 +10052,7 @@ const CATEGORIES_EN = [
   {
     "name": "propaganda techniques",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "geek",
       "difficulty": "hard"
     },
@@ -10202,7 +10202,7 @@ const CATEGORIES_EN = [
   {
     "name": "ancient scripts",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "geek",
       "difficulty": "hard"
     },
@@ -10502,7 +10502,7 @@ const CATEGORIES_EN = [
   {
     "name": "poetic forms",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "geek",
       "difficulty": "hard"
     },
@@ -10652,7 +10652,7 @@ const CATEGORIES_EN = [
   {
     "name": "assassination attempts that changed history",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "culture",
       "difficulty": "hard"
     },
@@ -10802,7 +10802,7 @@ const CATEGORIES_EN = [
   {
     "name": "cults & infamous leaders",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "history",
       "difficulty": "hard"
     },
@@ -10952,7 +10952,7 @@ const CATEGORIES_EN = [
   {
     "name": "underworld slang & criminal jargon",
     "tags": {
-      "a": "culture",
+      "a": "human",
       "b": "geek",
       "difficulty": "medium"
     },
@@ -11102,7 +11102,7 @@ const CATEGORIES_EN = [
   {
     "name": "doomsday scenarios (science-based)",
     "tags": {
-      "a": "science",
+      "a": "geek",
       "b": "geek",
       "difficulty": "hard"
     },
@@ -11252,7 +11252,7 @@ const CATEGORIES_EN = [
   {
     "name": "notorious prisons",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -11402,7 +11402,7 @@ const CATEGORIES_EN = [
   {
     "name": "weapons that changed warfare",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "geek",
       "difficulty": "medium"
     },
@@ -11552,7 +11552,7 @@ const CATEGORIES_EN = [
   {
     "name": "dictators' bizarre habits",
     "tags": {
-      "a": "history",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -11702,7 +11702,7 @@ const CATEGORIES_EN = [
   {
     "name": "infamous scientific frauds",
     "tags": {
-      "a": "science",
+      "a": "geek",
       "b": "geek",
       "difficulty": "hard"
     },
@@ -13052,7 +13052,7 @@ const CATEGORIES_EN = [
   {
     "name": "sports nicknames",
     "tags": {
-      "a": "sports",
+      "a": "human",
       "b": "culture",
       "difficulty": "medium"
     },
@@ -13349,4 +13349,755 @@ const CATEGORIES_EN = [
       }
     ]
   }
+,
+  {
+  "name": "famous ancient empires",
+  "tags": {
+    "a": "human",
+    "b": "hist",
+    "difficulty": "easy"
+  },
+  "words": [
+    {
+      "w": "Persian Empire",
+      "d": "From Cyrus to Darius — the first true superpower stretching from Egypt to India."
+    },
+    {
+      "w": "Greek Empire",
+      "d": "Athens, Sparta, philosophy, democracy — the cradle of Western civilization."
+    },
+    {
+      "w": "Srivijaya Empire",
+      "d": "Maritime Southeast Asian empire that controlled the spice trade for centuries."
+    },
+    {
+      "w": "Chinese Dynasty",
+      "d": "Thousands of years of imperial rule — from Shang bronzes to Qing silks."
+    },
+    {
+      "w": "Viking Age",
+      "d": "Norse raiders and traders who reached Baghdad, Iceland, and North America."
+    },
+    {
+      "w": "Spartan Warriors",
+      "d": "300 at Thermopylae — the ultimate warrior culture of ancient Greece."
+    },
+    {
+      "w": "Nebuchadnezzar",
+      "d": "Babylonian king who built the Hanging Gardens and destroyed Solomon's Temple."
+    },
+    {
+      "w": "Leonidas",
+      "d": "Spartan king who led the legendary last stand at Thermopylae."
+    },
+    {
+      "w": "Boudicca",
+      "d": "Celtic queen who torched Roman London in a furious rebellion."
+    },
+    {
+      "w": "Sun Tzu",
+      "d": "Chinese strategist whose Art of War is still studied in business schools."
+    },
+    {
+      "w": "Tokugawa",
+      "d": "Shogunate that unified Japan and ruled 250 years of enforced peace."
+    },
+    {
+      "w": "Attila the Hun",
+      "d": "The Scourge of God who terrified the Roman Empire into paying tribute."
+    },
+    {
+      "w": "Charlemagne",
+      "d": "Father of Europe — united most of Western Europe under one crown."
+    },
+    {
+      "w": "Montezuma",
+      "d": "Aztec emperor who mistook Cortés for a returning god."
+    },
+    {
+      "w": "Kublai Khan",
+      "d": "Mongol emperor of China who hosted Marco Polo at his court."
+    },
+    {
+      "w": "Saladin",
+      "d": "Muslim sultan who retook Jerusalem with chivalry that impressed even Crusaders."
+    },
+    {
+      "w": "Cyrus the Great",
+      "d": "Founded the Persian Empire and wrote history's first human rights charter."
+    },
+    {
+      "w": "Ramesses II",
+      "d": "Egypt's greatest pharaoh — built Abu Simbel and outlived most of his 100+ children."
+    },
+    {
+      "w": "Hammurabi",
+      "d": "Babylonian king whose law code — eye for an eye — is carved in stone."
+    },
+    {
+      "w": "Ashoka",
+      "d": "Indian emperor who converted to Buddhism after a bloody war and spread peace."
+    },
+    {
+      "w": "Suleiman",
+      "d": "Ottoman sultan called \"the Magnificent\" in Europe, \"the Lawgiver\" at home."
+    },
+    {
+      "w": "Pericles",
+      "d": "Athenian leader who built the Parthenon and made democracy golden."
+    },
+    {
+      "w": "Hannibal Barca",
+      "d": "Carthaginian general who crossed the Alps with elephants to attack Rome."
+    },
+    {
+      "w": "Constantine",
+      "d": "Roman emperor who legalized Christianity and moved the capital to Byzantium."
+    },
+    {
+      "w": "Tamerlane",
+      "d": "Central Asian conqueror who built towers of skulls and a dazzling capital in Samarkand."
+    },
+    {
+      "w": "Richard the Lionheart",
+      "d": "English king who spent most of his reign crusading, not ruling England."
+    },
+    {
+      "w": "Akbar the Great",
+      "d": "Mughal emperor who promoted religious tolerance in 16th-century India."
+    },
+    {
+      "w": "Mansa Musa",
+      "d": "Malian emperor so rich his Cairo spending spree crashed the gold market."
+    },
+    {
+      "w": "Hatshepsut",
+      "d": "Female pharaoh who ruled Egypt in a fake beard for two decades."
+    },
+    {
+      "w": "Nefertiti",
+      "d": "Egyptian queen whose painted bust is the icon of ancient beauty."
+    },
+    {
+      "w": "Xerxes",
+      "d": "Persian king who whipped the sea and threw a million soldiers at Greece."
+    },
+    {
+      "w": "Darius",
+      "d": "Persian king who built the Royal Road and organized history's first postal system."
+    },
+    {
+      "w": "Justinian",
+      "d": "Byzantine emperor who codified Roman law and built Hagia Sophia."
+    },
+    {
+      "w": "Augustus",
+      "d": "First Roman emperor — found Rome in brick, left it in marble."
+    },
+    {
+      "w": "Marcus Aurelius",
+      "d": "Philosopher-emperor whose Meditations is the ultimate Stoic self-help book."
+    }
+  ]
+},
+  {
+  "name": "pirates & treasure legends",
+  "tags": {
+    "a": "human",
+    "b": "hist",
+    "difficulty": "easy"
+  },
+  "words": [
+    {
+      "w": "Blackbeard",
+      "d": "Edward Teach lit fuses in his beard to look like a demon in battle."
+    },
+    {
+      "w": "Jolly Roger",
+      "d": "The skull-and-crossbones flag that meant \"surrender or die.\""
+    },
+    {
+      "w": "Treasure Map",
+      "d": "X marks the spot — the dream of every pirate story ever told."
+    },
+    {
+      "w": "Cutlass",
+      "d": "Short curved sword perfect for fighting in tight ship corridors."
+    },
+    {
+      "w": "Galleon",
+      "d": "Massive Spanish treasure ship — the ultimate pirate target."
+    },
+    {
+      "w": "Parrot",
+      "d": "Every fictional pirate's shoulder companion since Treasure Island."
+    },
+    {
+      "w": "Walking the Plank",
+      "d": "Classic punishment — blindfolded stroll into shark-infested water."
+    },
+    {
+      "w": "Cannon",
+      "d": "A pirate ship's main argument in any negotiation."
+    },
+    {
+      "w": "Doubloon",
+      "d": "Spanish gold coin — pirate treasure's basic unit of currency."
+    },
+    {
+      "w": "Buccaneer",
+      "d": "Caribbean pirates who started as wild-meat smokers on Hispaniola."
+    },
+    {
+      "w": "Privateer",
+      "d": "Government-licensed pirate — legal robbery on the high seas."
+    },
+    {
+      "w": "Schooner",
+      "d": "Fast two-masted ship that could outrun anything in the Caribbean."
+    },
+    {
+      "w": "Skull and Crossbones",
+      "d": "Universal pirate symbol — still used on poison labels today."
+    },
+    {
+      "w": "Davy Jones",
+      "d": "His locker is the ocean floor — where drowned sailors rest forever."
+    },
+    {
+      "w": "Captain Hook",
+      "d": "Peter Pan's nemesis with a crocodile-clock phobia and a sharp fashion sense."
+    },
+    {
+      "w": "Marooned",
+      "d": "Left alone on a desert island with a pistol and one bullet."
+    },
+    {
+      "w": "Mutiny",
+      "d": "When the crew decides the captain's voyage is over."
+    },
+    {
+      "w": "Corsair",
+      "d": "Mediterranean pirate — Barbary corsairs terrorized European coasts for centuries."
+    },
+    {
+      "w": "Eye Patch",
+      "d": "One theory: kept one eye adapted to darkness below deck."
+    },
+    {
+      "w": "Rum",
+      "d": "The pirate's drink of choice — \"why is the rum always gone?\""
+    },
+    {
+      "w": "Compass",
+      "d": "Jack Sparrow's pointed to what you wanted most, not north."
+    },
+    {
+      "w": "Shipwreck",
+      "d": "Thousands of treasure-laden wrecks still lie undiscovered on the ocean floor."
+    },
+    {
+      "w": "Booty",
+      "d": "Pirate loot — divided according to strict articles everyone signed."
+    },
+    {
+      "w": "Swashbuckler",
+      "d": "Dashing sword fighter — from \"swash\" (clash) and \"buckler\" (shield)."
+    },
+    {
+      "w": "Broadside",
+      "d": "Firing all cannons on one side simultaneously — devastating naval tactic."
+    },
+    {
+      "w": "Peg Leg",
+      "d": "Wooden replacement after a cannonball took the original."
+    },
+    {
+      "w": "Port Royal",
+      "d": "Jamaica's pirate capital — \"the wickedest city on Earth\" before the earthquake."
+    },
+    {
+      "w": "Treasure Chest",
+      "d": "Locked wooden box of gold, gems, and stolen jewelry."
+    },
+    {
+      "w": "Crow Nest",
+      "d": "Lookout platform at the top of the mast — first to spot land or prey."
+    },
+    {
+      "w": "Flagship",
+      "d": "The captain's main vessel — biggest, best armed, most feared."
+    },
+    {
+      "w": "Pirate Flag",
+      "d": "Each captain designed their own — Blackbeard's showed a skeleton stabbing a heart."
+    },
+    {
+      "w": "Cannonball",
+      "d": "Iron sphere that could punch through a ship's hull at close range."
+    },
+    {
+      "w": "First Mate",
+      "d": "Captain's right hand — ran the ship when the captain was drunk or dead."
+    },
+    {
+      "w": "Buried Gold",
+      "d": "Only Captain Kidd actually buried treasure — but the legend stuck forever."
+    },
+    {
+      "w": "Plunder",
+      "d": "To raid and rob — a pirate's primary business model."
+    }
+  ]
+},
+  {
+  "name": "ancient egyptian icons",
+  "tags": {
+    "a": "human",
+    "b": "hist",
+    "difficulty": "easy"
+  },
+  "words": [
+    {
+      "w": "Pharaoh",
+      "d": "God-king of Egypt — living deity who owned everything and everyone."
+    },
+    {
+      "w": "Pyramid",
+      "d": "Massive stone tombs built to launch pharaohs into the afterlife."
+    },
+    {
+      "w": "Great Sphinx",
+      "d": "Lion body, human head — guarding the Giza pyramids for 4,500 years."
+    },
+    {
+      "w": "Tutankhamun",
+      "d": "Boy king whose untouched tomb made him the most famous pharaoh ever."
+    },
+    {
+      "w": "Queen Nefertiti",
+      "d": "Iconic beauty whose painted bust is Berlin's most visited artwork."
+    },
+    {
+      "w": "Mummy",
+      "d": "Preserved body wrapped in linen — organs stored separately in jars."
+    },
+    {
+      "w": "Sacred Scarab",
+      "d": "Dung beetle worshipped as symbol of the sun god's daily rebirth."
+    },
+    {
+      "w": "Anubis",
+      "d": "Jackal-headed god who guided the dead and weighed their hearts."
+    },
+    {
+      "w": "Sun God Ra",
+      "d": "Supreme deity who sailed across the sky in a golden boat each day."
+    },
+    {
+      "w": "Osiris",
+      "d": "God of the dead — murdered by his brother, resurrected by his wife."
+    },
+    {
+      "w": "Isis",
+      "d": "Goddess of magic who reassembled Osiris and became the ideal mother."
+    },
+    {
+      "w": "Papyrus",
+      "d": "Paper made from river reeds — Egypt's medium for everything from math to myths."
+    },
+    {
+      "w": "Sarcophagus",
+      "d": "Stone coffin — often nested inside multiple decorated layers."
+    },
+    {
+      "w": "Obelisk",
+      "d": "Tall pointed stone pillar — several now stand in Paris, London, and New York."
+    },
+    {
+      "w": "Ramesses",
+      "d": "Egypt's greatest warrior pharaoh who built Abu Simbel's colossal statues."
+    },
+    {
+      "w": "Nile River",
+      "d": "Egypt's lifeline — annual floods made the desert bloom with crops."
+    },
+    {
+      "w": "Ankh",
+      "d": "Cross with a loop — the hieroglyphic symbol for eternal life."
+    },
+    {
+      "w": "Horus",
+      "d": "Falcon-headed sky god — every pharaoh was considered his living form."
+    },
+    {
+      "w": "Thoth",
+      "d": "Ibis-headed god of wisdom who invented writing and kept cosmic records."
+    },
+    {
+      "w": "Golden Mask",
+      "d": "Tutankhamun's 11-kg solid gold death mask — archaeology's greatest treasure."
+    },
+    {
+      "w": "Royal Tomb",
+      "d": "Hidden underground chambers in the Valley of Kings, painted wall to wall."
+    },
+    {
+      "w": "War Chariot",
+      "d": "Egypt's fearsome military vehicle — fast, light, and deadly with archers."
+    },
+    {
+      "w": "Amulet",
+      "d": "Magical charm tucked between mummy wrappings for protection in the afterlife."
+    },
+    {
+      "w": "Crocodile God Sobek",
+      "d": "Feared deity of the Nile — temples kept live sacred crocodiles."
+    },
+    {
+      "w": "Sacred Ibis",
+      "d": "White bird sacred to Thoth — millions were mummified as offerings."
+    },
+    {
+      "w": "Blue Lotus",
+      "d": "Psychoactive flower used in rituals — appears in almost every tomb painting."
+    },
+    {
+      "w": "Cartouche",
+      "d": "Oval frame enclosing a pharaoh's name in hieroglyphs."
+    },
+    {
+      "w": "Canopic Jar",
+      "d": "Four jars for four organs — lungs, liver, stomach, intestines."
+    },
+    {
+      "w": "Cat Goddess Bastet",
+      "d": "Killing a cat in ancient Egypt was punishable by death."
+    },
+    {
+      "w": "Desert God Seth",
+      "d": "Chaos god who murdered Osiris — villain of Egyptian mythology."
+    },
+    {
+      "w": "Ptolemy Dynasty",
+      "d": "Greek rulers of Egypt after Alexander — Cleopatra was the last one."
+    },
+    {
+      "w": "Rosetta Stone",
+      "d": "Three-language tablet that finally cracked the hieroglyphic code in 1822."
+    },
+    {
+      "w": "Giza Plateau",
+      "d": "Three great pyramids and the Sphinx — last surviving ancient wonder."
+    },
+    {
+      "w": "Valley of Kings",
+      "d": "Remote desert canyon hiding 63 royal tombs on the Nile's west bank."
+    },
+    {
+      "w": "Book of Dead",
+      "d": "Illustrated papyrus scroll — the ultimate cheat sheet for the afterlife."
+    }
+  ]
+},
+  {
+  "name": "board games & party games",
+  "tags": {
+    "a": "geek",
+    "b": "culture",
+    "difficulty": "easy"
+  },
+  "words": [
+    {
+      "w": "Twister",
+      "d": "Right hand red — the game that turns your living room into a pretzel factory."
+    },
+    {
+      "w": "Charades",
+      "d": "Act it out, no talking — the original party game since the 1700s."
+    },
+    {
+      "w": "Pictionary",
+      "d": "Draw fast, guess faster — artistic talent absolutely not required."
+    },
+    {
+      "w": "Cranium",
+      "d": "Sculpt, hum, spell backwards, act — tests every talent you didn't know you had."
+    },
+    {
+      "w": "Operation",
+      "d": "Remove the funny bone without the buzzer going off — steady hands required."
+    },
+    {
+      "w": "Sorry!",
+      "d": "Send opponents back to start — apologize while grinning."
+    },
+    {
+      "w": "Mousetrap",
+      "d": "Build a Rube Goldberg machine to catch a plastic mouse — setup takes longer than playing."
+    },
+    {
+      "w": "Hungry Hippos",
+      "d": "Smash the lever, eat the marbles — pure chaos for ages 4 and up."
+    },
+    {
+      "w": "Guess Who",
+      "d": "\"Does your person have glasses?\" — the original face-filter game."
+    },
+    {
+      "w": "Apples to Apples",
+      "d": "Match nouns to adjectives — the family-friendly Cards Against Humanity."
+    },
+    {
+      "w": "Boggle",
+      "d": "Shake the letter dice, find words before the timer runs out."
+    },
+    {
+      "w": "Ludo",
+      "d": "Race four tokens home — known worldwide under different names."
+    },
+    {
+      "w": "Snakes and Ladders",
+      "d": "Climb ladders, slide down snakes — ancient Indian game of karma."
+    },
+    {
+      "w": "Tic-Tac-Toe",
+      "d": "Three in a row — the game every kid masters in five minutes."
+    },
+    {
+      "w": "Yahtzee",
+      "d": "Roll five dice, chase the full house — pure luck with just enough strategy."
+    },
+    {
+      "w": "Rummy",
+      "d": "Match sets and runs — the card game grandma always wins."
+    },
+    {
+      "w": "Blackjack",
+      "d": "Get to 21 without going over — the only casino game where skill matters."
+    },
+    {
+      "w": "Spades",
+      "d": "Trick-taking partnership card game — trash talk is half the strategy."
+    },
+    {
+      "w": "Hearts",
+      "d": "Avoid hearts, dodge the Queen of Spades — or shoot the moon."
+    },
+    {
+      "w": "Mancala",
+      "d": "Ancient stone-counting game — scooping and dropping since 5000 BC."
+    },
+    {
+      "w": "Othello",
+      "d": "A minute to learn, a lifetime to master — black and white disc flipping."
+    },
+    {
+      "w": "KerPlunk",
+      "d": "Pull sticks without dropping marbles — gravity is the enemy."
+    },
+    {
+      "w": "Simon Says",
+      "d": "Follow commands only when Simon says — tests listening and reflexes."
+    },
+    {
+      "w": "Rock Paper Scissors",
+      "d": "Three-way tie-breaker used to settle every playground dispute."
+    },
+    {
+      "w": "Truth or Dare",
+      "d": "Reveal a secret or do something embarrassing — no good options."
+    },
+    {
+      "w": "Musical Chairs",
+      "d": "When the music stops, someone's out — birthday party elimination."
+    },
+    {
+      "w": "Bingo Night",
+      "d": "B-12! — the social game that fills church halls and retirement homes."
+    },
+    {
+      "w": "Shuffleboard",
+      "d": "Slide pucks down a long table — bar game and cruise ship classic."
+    },
+    {
+      "w": "Darts",
+      "d": "Throw pointy things at a board — aiming for triple twenty."
+    },
+    {
+      "w": "Foosball",
+      "d": "Table soccer — spin the rods and score miniature goals."
+    },
+    {
+      "w": "Pin the Tail",
+      "d": "Blindfolded donkey decoration — the birthday party staple since 1899."
+    },
+    {
+      "w": "Hot Potato",
+      "d": "Pass it fast before the music stops — don't be the one holding it."
+    },
+    {
+      "w": "Tag",
+      "d": "You're it! — the most universal children's game on Earth."
+    },
+    {
+      "w": "Hide and Seek",
+      "d": "Ready or not, here I come — played in every culture since forever."
+    },
+    {
+      "w": "Sardines",
+      "d": "Reverse hide and seek — one hides, everyone squeezes in when they find them."
+    }
+  ]
+},
+  {
+  "name": "harry potter universe",
+  "tags": {
+    "a": "geek",
+    "b": "culture",
+    "difficulty": "easy"
+  },
+  "words": [
+    {
+      "w": "Hogwarts",
+      "d": "School of Witchcraft and Wizardry — a Scottish castle you can't find on any map."
+    },
+    {
+      "w": "Quidditch",
+      "d": "Wizard sport on broomsticks — catch the Golden Snitch to win 150 points."
+    },
+    {
+      "w": "Muggle",
+      "d": "Non-magical person — you, probably."
+    },
+    {
+      "w": "Dumbledore",
+      "d": "Headmaster with a long beard, half-moon glasses, and a weakness for lemon drops."
+    },
+    {
+      "w": "Lord Voldemort",
+      "d": "He-Who-Must-Not-Be-Named — the Dark Lord who split his soul seven ways."
+    },
+    {
+      "w": "Patronus",
+      "d": "Silver guardian animal conjured from your happiest memory to fight Dementors."
+    },
+    {
+      "w": "Horcrux",
+      "d": "Object containing a piece of soul — destroy all seven to kill Voldemort."
+    },
+    {
+      "w": "Slytherin",
+      "d": "The ambitious house — green and silver, snake emblem, bad reputation."
+    },
+    {
+      "w": "Gryffindor",
+      "d": "The brave house — red and gold, lion emblem, Harry's house."
+    },
+    {
+      "w": "Hufflepuff",
+      "d": "The loyal house — yellow and black, badger emblem, underrated."
+    },
+    {
+      "w": "Ravenclaw",
+      "d": "The clever house — blue and bronze, eagle emblem, Luna Lovegood's house."
+    },
+    {
+      "w": "House Elf Dobby",
+      "d": "Free elf who died saving Harry — \"such a beautiful place to be with friends.\""
+    },
+    {
+      "w": "Giant Hagrid",
+      "d": "Half-giant gamekeeper who collects dangerous creatures and can't keep secrets."
+    },
+    {
+      "w": "Professor Snape",
+      "d": "The potions master everyone hated until the final reveal — \"Always.\""
+    },
+    {
+      "w": "Hermione Granger",
+      "d": "Brightest witch of her age — saved Harry and Ron approximately every Tuesday."
+    },
+    {
+      "w": "Magic Wand",
+      "d": "The wand chooses the wizard — Holly and phoenix feather for Harry."
+    },
+    {
+      "w": "Nimbus 2000",
+      "d": "Harry's first broomstick — top racing broom before the Firebolt."
+    },
+    {
+      "w": "Sorting Hat",
+      "d": "Sentient hat that reads your mind and picks your house on day one."
+    },
+    {
+      "w": "Dementor",
+      "d": "Soul-sucking creature in a black cloak — guards of Azkaban prison."
+    },
+    {
+      "w": "Azkaban Prison",
+      "d": "Wizard jail on a North Sea island — Sirius Black escaped it once."
+    },
+    {
+      "w": "Diagon Alley",
+      "d": "Hidden London shopping street for wizards — tap the right brick to enter."
+    },
+    {
+      "w": "Butterbeer",
+      "d": "Sweet wizarding drink served at the Three Broomsticks in Hogsmeade."
+    },
+    {
+      "w": "Mandrake Root",
+      "d": "Screaming baby plant whose cry can knock you unconscious or kill you."
+    },
+    {
+      "w": "Hippogriff",
+      "d": "Half eagle, half horse — bow first or lose a limb. Ask Malfoy."
+    },
+    {
+      "w": "Thestral",
+      "d": "Skeletal winged horse visible only to those who have witnessed death."
+    },
+    {
+      "w": "Pensieve",
+      "d": "Stone basin for storing and reviewing silver memory threads."
+    },
+    {
+      "w": "Marauders Map",
+      "d": "\"I solemnly swear I am up to no good\" — shows everyone's location at Hogwarts."
+    },
+    {
+      "w": "Invisibility Cloak",
+      "d": "One of the three Deathly Hallows — passed down from Ignotus Peverell."
+    },
+    {
+      "w": "Expelliarmus",
+      "d": "Harry's signature disarming spell — used it even against Voldemort."
+    },
+    {
+      "w": "Accio",
+      "d": "Summoning charm — \"Accio Firebolt!\" saved Harry from a dragon."
+    },
+    {
+      "w": "Lumos Spell",
+      "d": "Lights up your wand tip — the wizarding world's flashlight."
+    },
+    {
+      "w": "Floo Powder",
+      "d": "Throw it in the fireplace, shout your destination, spin through green flames."
+    },
+    {
+      "w": "Elder Wand",
+      "d": "Most powerful wand ever made — one of the three Deathly Hallows."
+    },
+    {
+      "w": "Golden Snitch",
+      "d": "Tiny winged gold ball worth 150 points — catching it ends the match."
+    },
+    {
+      "w": "Triwizard Cup",
+      "d": "Goblet of Fire chose champions — turned out to be a portkey to a graveyard."
+    }
+  ]
+}
 ];
